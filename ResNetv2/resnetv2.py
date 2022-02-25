@@ -7,13 +7,11 @@
 
 import tensorflow as tf
 from tensorflow import keras
-import tensorflow_datasets as tfds
 
 from keras.layers import Input, Activation, Conv2D, Dense, Dropout, BatchNormalization, ReLU, DepthwiseConv2D, GlobalAveragePooling2D, GlobalMaxPooling2D, Add
 from keras.models import Model
 from keras import regularizers
 
-import math
 import numpy as np
 
 
